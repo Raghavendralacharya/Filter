@@ -18,4 +18,4 @@ Filter can allows to have any kind of complicated condition having both expressi
 
 ## Flow Diagram
 
-![GitHub Logo](/Filter/Design.png)
+![Filter Design](https://github.com/Raghavendralacharya/Filter/edit/master/Design.png)
