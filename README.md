@@ -29,8 +29,7 @@ Library will return true or false after evaluating the condition provided. True 
 1 | type | Field tells what Boolean operation to be done on operands. Possible values are “AND” ,“OR”. | String | Yes
 2 | cond	| Array containing object of all the conditional expression. Mandatory if any filter conditions needs to be added. |	Array |	Yes 
 2.1 |	lhs	| Left operand of the expression. |	Object | Yes
-2.1.1	| type | Type specifies what kind of value being configured. 
-Ex: JSON_PATH tells value field contains path. Possible values are :“CONSTANT”, ”BOOLEAN”, ”JSON_PATH” | String |	Yes
+2.1.1	| type | Type specifies what kind of value being configured. Ex: JSON_PATH tells value field contains path. Possible values are :“CONSTANT”, ”BOOLEAN”, ”JSON_PATH” | String |	Yes
 2.1.2 | value	| Value field contains value of configured type. | String	| Yes
 2.2	| operator	| Operation to be performed on left and right operand. Possible values are: ==,!=,<,>,<=,>=. | String	| Yes
 2.3	| rhs	| Right operand of the expression. | Object	| No
