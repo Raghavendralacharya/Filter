@@ -16,6 +16,8 @@ Filter is an Java library which help to select only right data which satisfies t
 
 Filter can allows to have any kind of complicated condition having both expression and operation like “AND” and “OR”.
 
+Library will return true or false after evaluating the condition provided. True will signify that the data had satisfied the condition and false will signify the data didn’t satisfy condition, and can be ignored. 
+
 ## Flow Diagram
 
 ![Filter Design](https://github.com/Raghavendralacharya/Filter/blob/master/Design.png)
@@ -119,10 +121,11 @@ If OR given, then all the conditions values of the cond list would be ORed to pr
 lhs and rhs can have input json field (complete json path) /Boolean/Constant in value field. 
 	
 The possible values of operators are
+
 * == denotes Equal to
 * != denotes Not Equal to
-* > denotes Greater than
-* >= denotes Greater than or equal to
+* \> denotes Greater than
+* \>= denotes Greater than or equal to
 * < denotes Less than 
 * <= denotes Less than or equal to
 * ISNULL denotes Equals Null (Either field is not present or evaluates to “”)
