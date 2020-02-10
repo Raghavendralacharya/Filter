@@ -121,13 +121,13 @@ If OR given, then all the conditions values of the cond list would be ORed to pr
 lhs and rhs can have input json field (complete json path) /Boolean/Constant in value field. 
 	
 The possible values of operators are
-
+```
 * == denotes Equal to
 * != denotes Not Equal to
-* \> denotes Greater than
-* \>= denotes Greater than or equal to
+* > denotes Greater than
+* >= denotes Greater than or equal to
 * < denotes Less than 
 * <= denotes Less than or equal to
 * ISNULL denotes Equals Null (Either field is not present or evaluates to “”)
-
+```
 If any operand value is json value then that respective data will be fetched from message. 
