@@ -8,7 +8,7 @@
 
 [3.	Configuration](#Configuration)
 
-[4.	Few-Rules-for-Writing-JSON Path](#Few-Rules-for-Writing-JSON-Path)
+[4.	Few-Rules-for-Writing-JSON Path](#Few Rules for Writing JSON Path)
 
 [5.	Working](#Working)
 
