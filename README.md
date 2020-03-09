@@ -8,11 +8,11 @@
 
 [3.	Overview](#Configuration)
 
-[4.	Overview](#Few Rules for Writing JSON Path)
+[4.	Overview](#Few-Rules-for-Writing-JSON Path)
 
 [5.	Overview](#Working)
 
-[6.	Overview](#Developer Section)
+[6.	Overview](#Developer-Section)
 
 ## Overview
 In Finacle at times, there is a need to evaluate conditions (or filters) based on fields of a json object. Hence there is a need for a common filter Java library which can take an input, a condition and return True/False after evaluation of the condition.
@@ -155,7 +155,7 @@ If AND given, then all the conditions values of the cond list would be ANDed to 
 
 If OR given, then all the conditions values of the cond list would be ORed to produce the final result. On any logical_condition evaluating to **True**, evaluation of further logical_condition would be aborted and return value of the interface function is **True**.
 
-## Developer Section:
+## Developer-Section:
 
 Filter Java Library (jar) can be included in any project by specifying the following dependency in pom.xml of the project.
 
