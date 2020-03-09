@@ -37,7 +37,7 @@ Library will return True or False after evaluating the logical expression given 
 2.3.1	| type | Type specifies what kind of value being configured. Ex: "FIELD" tells value field contains path. Possible values are : “CONSTANT”, ”BOOLEAN”, ”FIELD” | String | Yes
 2.3.2	| value	| Value field contains value of configured type. |String | Yes
 
-## Few-Rules-for-Writing-JSON-Path:
+## Few Rules for Writing JSON Path:
 
 1. If value is present inside any object it should be written with “.” delimiter. 
 ```
@@ -155,7 +155,7 @@ If AND given, then all the conditions values of the cond list would be ANDed to 
 
 If OR given, then all the conditions values of the cond list would be ORed to produce the final result. On any logical_condition evaluating to **True**, evaluation of further logical_condition would be aborted and return value of the interface function is **True**.
 
-## Developer-Section:
+## Developer Section:
 
 Filter Java Library (jar) can be included in any project by specifying the following dependency in pom.xml of the project.
 
