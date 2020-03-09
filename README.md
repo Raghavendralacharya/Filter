@@ -4,15 +4,15 @@
 
 [1.	Overview](#Overview)
 
-[2.	Overview](#Introduction)
+[2.	Introduction](#Introduction)
 
-[3.	Overview](#Configuration)
+[3.	Configuration](#Configuration)
 
-[4.	Overview](#Few-Rules-for-Writing-JSON Path)
+[4.	Few-Rules-for-Writing-JSON Path](#Few-Rules-for-Writing-JSON-Path)
 
-[5.	Overview](#Working)
+[5.	Working](#Working)
 
-[6.	Overview](#Developer-Section)
+[6.	Developer Section](#Developer-Section)
 
 ## Overview
 In Finacle at times, there is a need to evaluate conditions (or filters) based on fields of a json object. Hence there is a need for a common filter Java library which can take an input, a condition and return True/False after evaluation of the condition.
@@ -37,7 +37,7 @@ Library will return True or False after evaluating the logical expression given 
 2.3.1	| type | Type specifies what kind of value being configured. Ex: "FIELD" tells value field contains path. Possible values are : “CONSTANT”, ”BOOLEAN”, ”FIELD” | String | Yes
 2.3.2	| value	| Value field contains value of configured type. |String | Yes
 
-## Few Rules for Writing JSON Path:
+## Few-Rules-for-Writing-JSON-Path:
 
 1. If value is present inside any object it should be written with “.” delimiter. 
 ```
